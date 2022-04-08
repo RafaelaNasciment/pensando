@@ -1,0 +1,8 @@
+C:\exercicios\questao1\questao1\bin\Debug\questao1.exe.config
+C:\exercicios\questao1\questao1\bin\Debug\questao1.exe
+C:\exercicios\questao1\questao1\bin\Debug\questao1.pdb
+C:\exercicios\questao1\questao1\obj\Debug\questao1.csproj.AssemblyReference.cache
+C:\exercicios\questao1\questao1\obj\Debug\questao1.csproj.SuggestedBindingRedirects.cache
+C:\exercicios\questao1\questao1\obj\Debug\questao1.csproj.CoreCompileInputs.cache
+C:\exercicios\questao1\questao1\obj\Debug\questao1.exe
+C:\exercicios\questao1\questao1\obj\Debug\questao1.pdb
