@@ -118,21 +118,20 @@ namespace questao1
 
         static void vogal()
         {
-            var array = new[] { "a", "e", "i", "o", "u" };
-            //var array = new[] { "aeiou" };
-           
+            var teste = "aeiou";
+
             Console.Clear();
             Console.WriteLine("Bem vindo! Informe uma letra e descubra se é vogal ou consoante: ");
             var letter = Console.ReadLine().ToLower();
 
             Console.WriteLine("Pensando....");
-            Thread.Sleep(3000);
+            Thread.Sleep(2000);
 
-            foreach (var item in array)
-            {
-                if(letter == item){ Console.WriteLine($"A letra >>{letter}<< é uma vogal!"); break; }
-                else { Console.WriteLine($"A letra >>{letter}<< é uma consoante!"); break; }
-            }
+            bool result = teste.Contains(letter);
+            if (result == true){Console.WriteLine($"Você digitou uma vogal >>>>{letter.ToUpper()}"); }
+            else { Console.WriteLine($"Você digitou uma consoante >>>>{letter.ToUpper()}"); }
+
+
             Console.WriteLine("Pressione ENTER para retornar ao menu");
             Console.ReadLine();
             Menu();
